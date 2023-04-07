@@ -4,6 +4,8 @@
 
 Comments are written like in C languages with `//` used for line comments and `/* */` for block commenting. For Block Coding there is no need for extra `*` when writing multiple lines.
 
+---
+
 ## Formatted Printing
 
 Printing in rust is done with macros and not functions, they are defined with `std::fmt`. The different types of macros are:
@@ -14,7 +16,13 @@ Printing in rust is done with macros and not functions, they are defined with `s
 - `eprint!` - writes text to the standard error (something like `print!`)
 - `eprintln!` - same as `eprint!` but adds a newline
 
-When formatting `{}` denotes an argument so in `println!("{} days", 31);` the `{}` will be replaced with `31`. The `{}` can also denote the index of the argument so that if multiple `{}` are used in the same string, the arguments can be placed in the order of index. For example
+When formatting `{}` denotes an argument so in
+
+```rust
+println!("{} days", 31); 
+```
+
+the `{}` will be replaced with `31`. The `{}` can also denote the index of the argument so that if multiple `{}` are used in the same string, the arguments can be placed in the order of index. For example
 
 ```rust
 println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob"); 
@@ -86,4 +94,19 @@ For ambiguous types you must first derive from debug then implement using displa
 
 > To return something within a function, you don't use the return keyword like in other languages, you just don't put a semicolon on it.
 
-#?add something about traits here
+### Formatting
+
+You can also have structs be formatted in different ways depending on what the argument inside the `{}` is. Take:
+
+```rust
+#[derive(Debug)]
+struct Vector2D{}
+/*--------------------*/
+impl fmt::Display for Vector2D
+/*--------------------*/
+impl fmt::Binary for Vector2D
+```
+
+The first will set up the Vector2d Structure to be displayed in a debug way.
+The second will set up the Vector2d Structure to be displayed in a regular way.
+Lastly, the third will set up the Vector2D Structure to be displayed in a binary format even though the Vector2D cannot be displayed as such.
