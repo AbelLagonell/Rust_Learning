@@ -32,7 +32,7 @@ If defining an enum with multiple variants, you can set them up through `{}` and
 
 ### Type Aliases
 
-If a name of a enum is too long then using `type <name> = <enum type>` can be used to shorten the name of the enum. The most common alias is the self alias used within functions.
+If a name of a enum is too long then using `type <name> = <enum type>` can be used to shorten the name of the enum. The most common alias is the `self` alias used within functions.
 
 ### use
 
@@ -52,7 +52,7 @@ Using `impl` you can set up a class like function system with the `enum` being t
 
 ## Constants
 
-`Const`: unchangeable value
+`Const`: unchangeable value  
 `Static`: possibly mutable variable with "static" lifetime
 
 >Global Variables are declared outside of all other scopes  
