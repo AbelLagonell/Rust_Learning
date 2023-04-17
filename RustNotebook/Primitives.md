@@ -33,8 +33,8 @@ To put the number as a literal you do have to put what type of integer it is, if
 > `&` is AND  
 > `|` is OR  
 > `^` is XOR  
-> `>> [number]` is shift by that many bits to the right  
-> `<< [number]` is shit by that many bits to the left  
+> `>> <number>` is shift by that many bits to the right  
+> `<< <number>` is shit by that many bits to the left  
 
 ---
 
