@@ -16,3 +16,5 @@ Then a directory with that project name will be made and the main project file w
 ## GLOSSARY
 
 1. [Hello World](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/HelloWorld.md)
+2. [Primitives](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/Primitives.md)
+3. [Custom Types](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/CustomTypes.md)

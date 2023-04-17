@@ -63,7 +63,7 @@ For implementation purposes it would be done like
 ```rust
 impl fmt::Display for <name of structure>  {  
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-    write!(f, "{}", self.0)
+        write!(f, "{}", self.0) // Inside the write would be the formatting of the information with the self.[number] representing positional data points
     }
 }
 ```
