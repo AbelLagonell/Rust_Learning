@@ -13,8 +13,10 @@ Run `cargo new <name of project>`
 Then a directory with that project name will be made and the main project file will be located under src
 > May only compile because of the cargo being the compiler and the cargo compiler needing specific parameters to run
 
-## GLOSSARY
+## TABLE OF CONTENTS
 
 1. [Hello World](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/HelloWorld.md)
 2. [Primitives](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/Primitives.md)
 3. [Custom Types](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/CustomTypes.md)
+4. [Variable Bindings](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/VariableBindings.md)
+5. [Types](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/Types.md)
