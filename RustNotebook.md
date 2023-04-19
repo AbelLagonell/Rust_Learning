@@ -1,6 +1,6 @@
 # Rust Notebook
 
-The structure of this file will go as follows:
+The structure of this notebook will go as follows:
 
 - Headings will denote the project that is worked on
 - After that there will be subheadings denoting each different part of the leaning process, such as how things work
@@ -20,3 +20,4 @@ Then a directory with that project name will be made and the main project file w
 3. [Custom Types](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/CustomTypes.md)
 4. [Variable Bindings](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/VariableBindings.md)
 5. [Types](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/Types.md)
+6. [Conversions and Expressions](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/ConversionAndExpression.md)
