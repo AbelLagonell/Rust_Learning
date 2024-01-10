@@ -21,3 +21,4 @@ Then a directory with that project name will be made and the main project file w
 4. [Variable Bindings](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/VariableBindings.md)
 5. [Types](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/Types.md)
 6. [Conversions and Expressions](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/ConversionAndExpression.md)
+7. [Flow of Control](https://github.com/AbelLagonell/Rust_Learning/blob/main/RustNotebook/FlowOfControl.md)
